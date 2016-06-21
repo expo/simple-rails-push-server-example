@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: SimpleServer_development
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
