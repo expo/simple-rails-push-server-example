@@ -1,7 +1,7 @@
 {
   "name": "(^) Push Notification Example",
   "description": "A barebones Rails app that saves tokens and interacts with the Exponent push notification API",
-  "repository": "https://github.com/exponentjs/simple-rails-push-server-example",
+  "repository": "https://github.com/exponent/simple-rails-push-server-example",
   "keywords": ["exponent", "react-native", "push notifications"],
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
