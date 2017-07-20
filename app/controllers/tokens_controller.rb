@@ -13,7 +13,7 @@ class TokensController < ApplicationController
       message = 'Welcome back!'
     else
       @token = Token.create(token_params)
-      message = 'Welcome to Exponent'
+      message = 'Hello there! This is a push notification.'
     end
 
     exponent.publish(
